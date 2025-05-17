@@ -1,0 +1,63 @@
+import numpy as np
+
+# Initialize the variables (weights and biases)
+A_value = 0.5  # Initial weight (e.g., for input neuron)
+B_value = 0.1  # Initial bias
+learning_rate = 0.01  # Learning rate for the model
+epochs = 100  # Number of training iterations
+
+# Initialize weights for optimation (dynamic weights for A and B)
+weight_A = 50  # Initial weight for A (input weight)
+weight_B = 50  # Initial weight for B (bias weight)
+
+# Activation function (Sigmoid)
+def sigmoid(x):
+    return 1 / (1 + np.exp(-x))
+
+# Derivative of Sigmoid (for backpropagation)
+def sigmoid_derivative(x):
+    return x * (1 - x)
+
+# Optimation function to adjust the weights based on iterative feedback
+def optimate(A_value, B_value, weight_A, weight_B):
+    # Normalize weights (adjusting A and B with their respective weights)
+    total_weight = weight_A + weight_B
+    norm_weight_A = weight_A / total_weight
+    norm_weight_B = weight_B / total_weight
+    
+    # Perform optimation (example of weighted sum for neuron calculation)
+    output = (A_value * norm_weight_A) + (B_value * norm_weight_B)
+    return output
+
+# Training the neuron model
+def train_neuron(X, y):
+    global A_value, B_value, weight_A, weight_B
+    for epoch in range(epochs):
+        # Calculate the model output using optimation
+        output = optimate(A_value, B_value, weight_A, weight_B)
+        
+        # Calculate the error (difference between the predicted and actual output)
+        error = y - output
+        
+        # Update weights using gradient descent (based on the error)
+        weight_A += learning_rate * error * A_value  # Update weight A
+        weight_B += learning_rate * error * B_value  # Update weight B
+        
+        # Apply optimation in an iterative way to adjust weights dynamically
+        weight_A += np.random.uniform(-0.1, 0.1)  # Random adjustment to simulate optimation
+        weight_B += np.random.uniform(-0.1, 0.1)  # Random adjustment to simulate optimation
+
+        # Print the error every 10 iterations to track progress
+        if epoch % 10 == 0:
+            print(f"Epoch {epoch} - Output: {output} - Error: {error}")
+
+# Input data (single example for simplicity)
+X = np.array([0.5])  # Example input value
+y = np.array([0.8])  # Desired output (target value)
+
+# Train the neuron
+train_neuron(X, y)
+
+# Final output after training
+final_output = optimate(A_value, B_value, weight_A, weight_B)
+print(f"Final output after {epochs} epochs: {final_output}")

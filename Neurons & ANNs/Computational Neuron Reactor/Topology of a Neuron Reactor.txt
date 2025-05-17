@@ -1,0 +1,62 @@
+Neuron Reactor
+│
+├── Neuron Model
+│   ├── Membrane Potential
+│   ├── Action Potential
+│   ├── Synaptic Inputs
+│   ├── Ion Channels
+│   ├── Resting Potential
+│   └── Threshold Dynamics
+│
+├── Synaptic Dynamics
+│   ├── Excitatory Synapses
+│   ├── Inhibitory Synapses
+│   ├── Synaptic Weighting
+│   ├── Long-Term Potentiation (LTP)
+│   └── Long-Term Depression (LTD)
+│
+├── Neural Network
+│   ├── Network Architecture
+│   │   ├── Layers (Input, Hidden, Output)
+│   │   ├── Recurrent Connections
+│   │   └── Feedforward Connections
+│   ├── Network Dynamics
+│   │   ├── Spike-Timing Dependent Plasticity (STDP)
+│   │   ├── Hebbian Learning
+│   │   ├── Network Synchronization
+│   │   └── Neural Activity Patterns
+│   └── Neuron Population
+│       ├── Excitatory Neurons
+│       └── Inhibitory Neurons
+│
+├── Sensory Inputs
+│   ├── Sensory Modality Processing
+│   │   ├── Vision
+│   │   ├── Hearing
+│   │   ├── Touch
+│   │   ├── Olfaction
+│   │   └── Taste
+│   └── Sensory Integration
+│
+├── Computational Functions
+│   ├── Signal Processing
+│   ├── Feature Extraction
+│   ├── Temporal Coding
+│   ├── Spatial Coding
+│   └── Decision Making
+│
+├── Learning & Memory
+│   ├── Short-Term Memory
+│   ├── Long-Term Memory
+│   ├── Reinforcement Learning
+│   └── Memory Consolidation
+│
+├── Feedback Mechanisms
+│   ├── Top-Down Feedback
+│   ├── Bottom-Up Feedback
+│   └── Modulatory Feedback
+│
+└── Output Signals
+    ├── Motor Commands
+    ├── Hormonal Signals
+    └── Cognitive Outputs

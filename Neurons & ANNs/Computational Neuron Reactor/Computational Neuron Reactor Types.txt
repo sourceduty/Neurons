@@ -1,0 +1,36 @@
+Computational Neuron Reactor Types
+│
+├── Single Neuron Model
+│   ├── Hodgkin-Huxley Model
+│   ├── Integrate-and-Fire Model
+│   ├── Leaky Integrate-and-Fire Model
+│   └── FitzHugh-Nagumo Model
+│
+├── Neural Network Models
+│   ├── Feedforward Neural Network
+│   ├── Recurrent Neural Network (RNN)
+│   ├── Convolutional Neural Network (CNN)
+│   ├── Long Short-Term Memory (LSTM)
+│   ├── Spiking Neural Network (SNN)
+│   └── Generative Adversarial Network (GAN)
+│
+├── Brain Region Models
+│   ├── Sensory Cortex Model
+│   ├── Motor Cortex Model
+│   ├── Hippocampus Model
+│   ├── Prefrontal Cortex Model
+│   └── Amygdala Model
+│
+├── Learning Mechanisms
+│   ├── Synaptic Plasticity
+│   ├── Hebbian Learning
+│   ├── Spike-Timing Dependent Plasticity (STDP)
+│   ├── Reinforcement Learning
+│   └── Unsupervised Learning
+│
+└── Neuromorphic Computing
+    ├── Analog Neural Networks
+    ├── Digital Neural Networks
+    ├── Memristor-based Systems
+    ├── Spiking Neural Hardware
+    └── Brain-Inspired Hardware

@@ -1,0 +1,76 @@
+Experimental Neural Network Model V1.0
+=====================
+
+1. Number of Neurons: 4
+
+2. Input Metrics:
+
+- Each neuron receives multiple numerical input features.
+- Example input features: Age, Height, Weight, Temperature, Blood pressure, Heart rate, Cholesterol, Glucose, Purchases, Income, Education, Distance, Duration, Rating, Probability, Image color intensity, Image color, Image brightness.
+
+3. Weights:
+
+- Each input feature has an associated weight.
+- Weights can be positive, negative, or zero.
+- Weights determine the influence of each input on the neuron's output.
+- Example weights: w1, w2, w3, ...
+
+4. Bias:
+
+- Each neuron has an associated bias term.
+- Bias is added to the weighted sum of inputs before applying the activation function.
+- Example bias: bias1, bias2, bias3, ...
+
+5. Custom Biased Activation Function:
+
+- Function: f(x) = |x + 1|
+- For x >= -1, f(x) = x + 1
+- For x < -1, f(x) = -x - 1
+
+6. Forward Pass Calculation:
+
+- For each neuron:
+
+ - Compute weighted sum of inputs: weighted_sum = (input1 * w1) + (input2 * w2) + ... + (inputN * wN)
+ - Apply bias: biased_sum = weighted_sum + bias
+ - Apply activation function: output = f(biased_sum)
+
+7. Output Metrics:
+
+- The output of each neuron is the result after applying the custom activation function.
+- Example output metrics: Image color intensity, Image color, Image brightness, etc.
+
+Example Neuron Calculation:
+===========================
+
+Inputs: 
+Age = 0.5, 
+Height = 0.8, 
+Weight = 0.6
+
+Weights: 
+w1 = 0.3, 
+w2 = 0.4, 
+w3 = 0.2
+
+Bias: 
+bias = 0.2
+
+Calculation for One Neuron:
+---------------------------
+1. Weighted Sum: 
+weighted_sum = (0.5 * 0.3) + (0.8 * 0.4) + (0.6 * 0.2)
+		   = 0.15 + 0.32 + 0.12
+		   = 0.59
+
+2. Apply Bias: 
+biased_sum = 0.59 + 0.2
+		 = 0.79
+
+3. Apply Activation Function: 
+output = f(0.79)
+	  = |0.79 + 1|
+	  = |1.79|
+	  = 1.79
+
+Final Output: 1.79

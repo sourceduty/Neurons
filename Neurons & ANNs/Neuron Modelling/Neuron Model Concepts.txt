@@ -1,0 +1,72 @@
+Neuron Model Concepts
+│
+├── Single Neuron Models
+│   ├── Hodgkin-Huxley Model
+│   │   ├── Ion Channels
+│   │   │   ├── Sodium (Na+)
+│   │   │   ├── Potassium (K+)
+│   │   │   ├── Leak Channels
+│   │   │   └── Calcium (Ca2+)
+│   │   ├── Membrane Potential Dynamics
+│   │   └── Action Potential Propagation
+│   │
+│   ├── Leaky Integrate-and-Fire Model
+│   │   ├── Membrane Leak
+│   │   ├── Threshold Function
+│   │   └── Spike Generation
+│   │
+│   └── Izhikevich Model
+│       ├── Neuron Dynamics
+│       ├── Spike Burst Behavior
+│       └── Synaptic Input
+│
+├── Synaptic Models
+│   ├── Electrical Synapses
+│   │   ├── Gap Junctions
+│   │   └── Direct Current Flow
+│   │
+│   └── Chemical Synapses
+│       ├── Excitatory (e.g., Glutamatergic)
+│       ├── Inhibitory (e.g., GABAergic)
+│       └── Synaptic Plasticity
+│           ├── Long-Term Potentiation (LTP)
+│           └── Long-Term Depression (LTD)
+│
+├── Neuronal Networks
+│   ├── Small-Scale Networks
+│   │   ├── Synaptic Connectivity
+│   │   └── Network Oscillations
+│   │
+│   ├── Large-Scale Networks
+│   │   ├── Cortical Columns
+│   │   ├── Hub Nodes
+│   │   └── Emergent Properties (e.g., Synchrony)
+│   │
+│   └── Spiking Neural Networks (SNNs)
+│       ├── Rate Coding
+│       ├── Temporal Coding
+│       └── Learning Algorithms
+│           ├── STDP (Spike-Timing-Dependent Plasticity)
+│           └── Reward-Modulated STDP
+│
+├── Computational Techniques
+│   ├── Numerical Simulation Methods
+│   │   ├── Euler’s Method
+│   │   ├── Runge-Kutta Method
+│   │   └── NEURON Simulation Environment
+│   │
+│   └── Optimization & Parameter Estimation
+│       ├── Genetic Algorithms
+│       ├── Bayesian Inference
+│       └── Markov Chains
+│
+└── Experimental Validation
+    ├── Electrophysiological Recordings
+    │   ├── Intracellular
+    │   └── Extracellular
+    │
+    ├── Imaging Techniques
+    │   ├── Calcium Imaging
+    │   └── Voltage-Sensitive Dyes
+    │
+    └── In Vivo / In Vitro Models

@@ -1,0 +1,35 @@
+Compound Neuron Network
+│
+├── Input Layer
+│   ├── Raw Data (e.g., images, text, sensory inputs)
+│
+├── Hidden Layers
+│   ├── Spatial Processing (Convolutional Nodes)
+│   │   ├── Convolutional Filters
+│   │   └── Activation Functions (e.g., ReLU, Sigmoid)
+│   │
+│   ├── Temporal Processing (Recurrent Nodes)
+│   │   ├── Recurrent Units (e.g., LSTM, GRU)
+│   │   └── Temporal Contextualization
+│   │
+│   ├── Attention Mechanisms
+│   │   ├── Attention Weights
+│   │   └── Contextual Focus
+│   │
+│   └── Memory Units
+│       ├── Memory Cells (e.g., long-term memory)
+│       └── Short-Term Memory (STM)
+│
+├── Output Layer
+│   ├── Final Prediction (e.g., classification, regression)
+│   └── Activation Function (e.g., Softmax, Linear)
+│
+└── Feedback and Learning
+    ├── Recurrent Connections
+    │   ├── Weight Adjustments Based on Previous Outputs
+    │   └── Learning from Interactions
+    │
+    └── Backpropagation & Optimization
+        ├── Stochastic Gradient Descent (SGD) / Adam
+        ├── Loss Function (e.g., Cross-Entropy)
+        └── Weight Update Mechanism
