@@ -32,4 +32,12 @@ An evolving neuron model is an advanced computational framework inspired by the 
 
 #
 
+![Swtich-State Neuron](https://github.com/user-attachments/assets/bc0c80bd-e7be-46dc-9079-94954eeca53f)
+
+A switch-state neuron is a computational model of a neuron that can dynamically transition between multiple distinct functional states in response to changes in internal or external conditions. Unlike traditional neuron models that assume fixed properties—such as a stable threshold for spiking or constant synaptic weights—switch-state neurons are designed to mimic the flexibility and adaptability observed in biological neurons. These models account for phenomena such as sudden changes in firing patterns, state-dependent plasticity, and context-sensitive signal processing. The transition between states may be driven by factors like neuromodulators, network activity, or temporal patterns of stimulation, enabling the model to capture behaviors like bursting, adaptation, or phase-locking. This state-switching mechanism allows for a richer and more accurate representation of complex neural computations, including phenomena such as working memory gating, attentional shifts, or episodic encoding.
+
+[Switch-State Neuron](https://chatgpt.com/g/g-683f31022c5c81919a5be9342030a658-switch-state-neuron) is a custom GPT made to assist with exploring, developing, and improving models of switchable state neurons within the broader field of computational neuroscience. It is designed to help users investigate the theoretical underpinnings, biophysical mechanisms, and computational strategies that enable neurons to change functional modes over time. The model supports the generation of novel mathematical frameworks, the integration of molecular and synaptic data, and the simulation of multiscale neuronal dynamics, all with the goal of advancing our understanding of flexible neural computation. Furthermore, this GPT helps researchers and developers apply switch-state neuron models to real-world problems in neuroscience—such as explaining how brain regions cooperate during decision-making or how neuromodulators alter network dynamics in disorders—while also offering guidance on how to constrain and validate models using experimental data.
+
+#
+
 [Neural Optimation](https://chatgpt.com/g/g-6817eae33a988191ada3321300a603ca-neural-optimation)
