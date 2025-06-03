@@ -24,7 +24,7 @@ The key advantage of this groundbreaking approach lies in its ability to capture
 
 #
 
-![Evolving Neuron](https://github.com/user-attachments/assets/7637a4e6-2225-445c-8493-fbecd1db4c66)
+![Evolving Neuron](https://github.com/user-attachments/assets/15213a1f-bcf8-457c-ad37-09c1878b09f9)
 
 An evolving neuron model is an advanced computational framework inspired by the adaptive nature of biological neurons. Unlike traditional artificial neurons, which rely on static architectures and supervised training with labeled data, evolving neurons operate under unsupervised learning principles. These models dynamically restructure themselves in response to raw, unstructured input data by detecting statistical regularities across activation patterns. They autonomously add new nodes and connections when novel, significant features are identified, allowing the network to grow and reorganize its structure over time. Each neuron refines its receptive field—essentially the part of the input it is sensitive to—by pruning irrelevant connections and forming new ones that maximize information flow and minimize redundancy. This self-optimization occurs through a competitive learning mechanism that strengthens connections contributing most to meaningful pattern detection, enabling the model to learn hierarchical representations of data without external labels or supervision. As a result, evolving neuron models can extract increasingly abstract concepts from complex sensory streams, offering powerful solutions in domains like robotics perception, anomaly detection, and natural language understanding.
 
