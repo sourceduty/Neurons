@@ -1,4 +1,4 @@
-![Emulated and Simulated Neurons](https://github.com/user-attachments/assets/e75c2936-406a-442a-b775-848c5f631a17)
+![Neurons](https://github.com/user-attachments/assets/5fec637d-a2ad-4b2a-8a22-3e351c0b12f3)
 
 [Neuron modelling](https://chatgpt.com/g/g-675f752981348191a84d20f6f15cfb2b-neuron-modelling) is inspired by the structure and function of biological neurons. The basic unit in an artificial neural network (ANN) is the artificial neuron, which mimics the behavior of a biological neuron. This model takes inputs, processes them using a mathematical function, and produces an output. The inputs represent signals, much like dendrites receive electrical signals from other neurons in the brain. Each input has an associated weight that adjusts the strength of the signal. The neuron sums these weighted inputs and applies an activation function, such as the sigmoid or ReLU, to produce a final output. The activation function introduces non-linearity into the model, enabling the neural network to learn complex patterns and relationships. The output is then transmitted to other neurons in the network, forming the basis of more advanced computations in larger networks.
 
@@ -38,6 +38,8 @@ A switch-state neuron is a computational model of a neuron that can dynamically 
 
 [Switch-State Neuron](https://chatgpt.com/g/g-683f31022c5c81919a5be9342030a658-switch-state-neuron) is a custom GPT made to assist with exploring, developing, and improving models of switchable state neurons within the broader field of computational neuroscience. It is designed to help users investigate the theoretical underpinnings, biophysical mechanisms, and computational strategies that enable neurons to change functional modes over time. The model supports the generation of novel mathematical frameworks, the integration of molecular and synaptic data, and the simulation of multiscale neuronal dynamics, all with the goal of advancing our understanding of flexible neural computation. Furthermore, this GPT helps researchers and developers apply switch-state neuron models to real-world problems in neuroscience—such as explaining how brain regions cooperate during decision-making or how neuromodulators alter network dynamics in disorders—while also offering guidance on how to constrain and validate models using experimental data.
 
+#
+![Emulated and Simulated Neurons](https://github.com/user-attachments/assets/e75c2936-406a-442a-b775-848c5f631a17)
 #
 
 [Neural Optimation](https://chatgpt.com/g/g-6817eae33a988191ada3321300a603ca-neural-optimation)
