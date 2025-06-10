@@ -47,3 +47,5 @@ A switch-state neuron is a computational model of a neuron that can dynamically 
 #
 
 [Neural Optimation](https://chatgpt.com/g/g-6817eae33a988191ada3321300a603ca-neural-optimation)
+<br>
+[Math Tools](https://github.com/sourceduty/Math_Tools)
