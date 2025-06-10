@@ -1,4 +1,4 @@
-![Neurons](https://github.com/user-attachments/assets/5fec637d-a2ad-4b2a-8a22-3e351c0b12f3)
+![Neuron Models](https://github.com/user-attachments/assets/a5940c24-52b3-48e6-86f4-994d2498a48f)
 
 [Neuron modelling](https://chatgpt.com/g/g-675f752981348191a84d20f6f15cfb2b-neuron-modelling) is inspired by the structure and function of biological neurons. The basic unit in an artificial neural network (ANN) is the artificial neuron, which mimics the behavior of a biological neuron. This model takes inputs, processes them using a mathematical function, and produces an output. The inputs represent signals, much like dendrites receive electrical signals from other neurons in the brain. Each input has an associated weight that adjusts the strength of the signal. The neuron sums these weighted inputs and applies an activation function, such as the sigmoid or ReLU, to produce a final output. The activation function introduces non-linearity into the model, enabling the neural network to learn complex patterns and relationships. The output is then transmitted to other neurons in the network, forming the basis of more advanced computations in larger networks.
 
@@ -8,7 +8,7 @@ The primary advantage of artificial neural networks lies in their ability to app
 
 #
 
-![Computational Neuron Reactor](https://github.com/user-attachments/assets/f33957b4-00f2-4429-bbd0-fe15bea6f825)
+![Neurons](https://github.com/user-attachments/assets/5fec637d-a2ad-4b2a-8a22-3e351c0b12f3)
 
 The Computational [Neuron Reactor](https://chatgpt.com/g/g-6808d6b9325081919b2c867ec09264e5-neuron-reactor) is an advanced conceptual model aimed at simulating the behavior of neurons and neural networks in a highly detailed and scalable manner. It draws inspiration from both computational neuroscience and artificial intelligence, integrating principles from these fields to create a powerful tool for understanding brain function and developing new technologies. This report explores the capabilities, applications, and potential future directions of the Computational Neuron Reactor, highlighting its relevance in modern science and technology.
 
