@@ -1,4 +1,4 @@
-![Neuron Models](https://github.com/user-attachments/assets/a5940c24-52b3-48e6-86f4-994d2498a48f)
+![Neuron Models](https://github.com/user-attachments/assets/21eeafc8-e500-4128-b34b-f554aa6dbb2a)
 
 [Neuron modelling](https://chatgpt.com/g/g-675f752981348191a84d20f6f15cfb2b-neuron-modelling) is inspired by the structure and function of biological neurons. The basic unit in an artificial neural network (ANN) is the artificial neuron, which mimics the behavior of a biological neuron. This model takes inputs, processes them using a mathematical function, and produces an output. The inputs represent signals, much like dendrites receive electrical signals from other neurons in the brain. Each input has an associated weight that adjusts the strength of the signal. The neuron sums these weighted inputs and applies an activation function, such as the sigmoid or ReLU, to produce a final output. The activation function introduces non-linearity into the model, enabling the neural network to learn complex patterns and relationships. The output is then transmitted to other neurons in the network, forming the basis of more advanced computations in larger networks.
 
