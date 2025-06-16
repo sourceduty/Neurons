@@ -84,3 +84,5 @@ Neural Processing Units (NPUs) are specialized hardware accelerators designed to
 [Math Tools](https://github.com/sourceduty/Math_Tools)
 <br>
 [Polar Neuron](https://github.com/sourceduty/Polar_Neuron)
+<br>
+[Dark Neuron](https://github.com/sourceduty/Dark_Neuron)
