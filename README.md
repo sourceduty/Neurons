@@ -79,7 +79,7 @@ Neural Processing Units (NPUs) are specialized hardware accelerators designed to
 
 ![Neuralink](https://github.com/user-attachments/assets/cb52837a-886a-4c09-b6f9-fdb269d241a0)
 
-Alex Aldridge thinks BMI devices like Neuralink are useful and would work well for physically disabled people. This type of wireless signal processing is an accessibility technology for those who need it. This wouldn't be a luxury, leisure or hobby. When a user mentally simulates intention for movement with thought, a computer action is matched. Neuralink can be deactivated, replaced, or removed, and this capability is built into its design to prioritize safety, user control, and adaptability.
+Alex Aldridge thinks BCI devices like Neuralink are useful and would work well for physically disabled people. This type of wireless signal processing is an accessibility technology for those who need it. This wouldn't be a luxury, leisure or hobby. When a user mentally simulates intention for movement with thought, a computer action is matched. Neuralink can be deactivated, replaced, or removed, and this capability is built into its design to prioritize safety, user control, and adaptability.
 
 #
 ![Emulated and Simulated Neurons](https://github.com/user-attachments/assets/e75c2936-406a-442a-b775-848c5f631a17)
