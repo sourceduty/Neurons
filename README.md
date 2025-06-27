@@ -96,3 +96,5 @@ Alex Aldridge thinks BCI devices like Neuralink are useful and would work well f
 [Rapid Neuron](https://github.com/sourceduty/Rapid_Neuron)
 <br>
 [Neuromorphic Chip](https://chatgpt.com/g/g-68505766e4b081919e1661669332a032-neuromorphic-chip)
+<br>
+[Computational Reactors](https://github.com/sourceduty/Computational_Reactors)
